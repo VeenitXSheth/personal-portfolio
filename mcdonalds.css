@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@900&family=Raleway:wght@300&display=swap');
+
+html, body {
+  height: 100vh;
+  width: 100%;
+  background: linear-gradient(#212121, #121212);
+}
+
+.text-container {
+  display: flex;
+}
+
+.mc-head {
+  display: inline-block;
+  font-family: 'Montserrat', sans-serif;
+  background: linear-gradient(90deg, #f00000, #ff8800);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 69px;
+  margin: auto;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.mc-img {
+  display: flex;
+  margin: auto;
+  border-radius: 25px;
+  margin-bottom: 25px;
+}
+
+.mc-sub-1 {
+  color: white;
+  font-family: 'Raleway', sans-serif;
+  font-size: 30px;
+  text-align: center;
+  margin-top: 50px;
+}
+
+.mc-icons {
+  display: flex;
+  justify-content: center;
+}
+
+.behance {
+  margin-right: 15px;
+  transition: transform 0.75s ease,
+    scale 0.3s ease,
+    opacity 0.3s ease;
+}
+
+.behance:hover {
+  transform: rotate(360deg);
+}
+
+.behance:active {
+  scale: 105%;
+  opacity: 0.8;
+}
+
+.mc-back-btn {
+  transition: transform 0.75s ease,
+    scale 0.3s ease,
+    opacity 0.3s ease;
+}
+
+.mc-back-btn:hover {
+  transform: rotate(360deg);
+}
+
+.mc-back-btn:active {
+  scale: 105%;
+  opacity: 0.8;
+}

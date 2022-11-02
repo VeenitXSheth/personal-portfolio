@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@900&family=Raleway:wght@300&display=swap');
+
+html, body {
+  height: 100vh;
+  width: 100%;
+  background: linear-gradient(#212121, #121212);
+  overflow: scroll;
+}
+
+.higround-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.higround-head {
+  display: inline-block;
+  font-family: 'Montserrat', sans-serif;
+  background: linear-gradient(90deg, #00b3f0, #00ff56);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 69px;
+  margin: auto;
+  margin-top: 50px;
+  margin-bottom: 0px;
+}
+
+video {
+  margin: auto;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.25);
+  margin-bottom: 25px;
+  margin-top: 0;
+}
+
+controls {
+  background-color: white;
+  color: black;
+}
+
+.sub2-2 {
+  color: white;
+  font-family: 'Raleway', sans-serif;
+  text-align: center;
+  font-size: 30px;
+  margin-top: 50px;
+}
+
+.higround-icons {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 25px;
+  margin-top: 20px;
+}
